@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:syncmaskededit="clr-namespace:Syncfusion.XForms.MaskedEdit;assembly=Syncfusion.SfMaskedEdit.XForms"
+             x:Class="MaskedEdit_Sample.MainPage">
+    <ContentPage.Content>
+        <StackLayout Margin="0, 100, 0, 0">
+            <syncmaskededit:SfMaskedEdit x:Name="maskedEdit" MaskType="RegEx" Mask="\w+" Value="Syncfusion"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
